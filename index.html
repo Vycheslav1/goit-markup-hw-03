@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <title>WebStudio</title>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,800;1,900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/normalize.css">
+  </head>
+  <body >
+  
+    <header class="container upper-index-html">
+    
+		<nav class="navigate">
+		
+        <a class="logo"  href="index.html" lang="en" ><span class="logo-part-first">Web</span>
+		<span class="logo-part-second">Studio</span></a>
+		
+		 <ul class="pages">
+          <li class="page-first"><a class="page-first-link" href="index.html">Студія</a></li>
+          <li class="page-second"><a class="page-second-link" href="portfolio.html"><span class="portfolio-link" >Портфоліо</span></a></li>
+          <li class="page-third"><a class="page-third-link" href="index.html">Контакти</a></li>
+        </ul>
+		</nav> 
+	
+      <ul class="contacts">
+        <li class="contact-first"><a class="contact-first-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="contact-second"><a class="contact-second-link" href="tel:+380961111111"><span class="phone-color">+38 096 111 11 11</span></a></li>
+      </ul>
+	      
+      	  
+    </header>
+    <main>
+	 <section class="container plug">
+        <h1 class="title-first">Ефективні рішення для вашого бізнесу</h1>
+        <button class="btn" type="button">Замовити послугу</button>
+      </section>
+    <section class="container section part-first">
+	
+	 <h2 class="visually-hidden">НАШІ ПЕРЕВАГИ</h2>
+        <ul class="descriptions">
+          <li class="description-one">
+            <div class="description-first"><h3 class="title-content-first">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="content-first">Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p></div>
+          </li>
+          <li > 
+            <div class="description-second"><h3 class="title-content-second">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="content-second">Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p></div>
+          </li>
+          <li >
+            <div class="description-third"><h3 class="title-content-third">ПЛАНУВАННЯ</h3>
+            <p class="content-third">
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p></div>
+          </li>
+          <li >
+            <div class="description-forth"><h3 class="title-content-forth">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="content-forth">Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p></div>
+          </li>
+        </ul>
+	  </section>
+      <section class="container section part-second">
+	   <div class="title-second"><h3 class="title-content">Чим ми займаємося</h3></div>
+   		<ul class="photos">
+          <li class="list-image-first">
+            <a class="image-first-link" href="#"><div class="image-fist"><img class="picture-first" 
+			src="./images/img1.jpg"
+              alt="Робота з персональними комп`ютерами"
+              width="370" 
+            ></div></a>
+          </li>
+          <li class="list-image-second">
+            <a class="image-second-link" href="#"><div class="image-second"><img class="picture-second"
+              src="./images/img2.jpg"
+              alt="Робота з мобільними телефонами"
+              width="370" 
+            ></div></a>
+          </li>
+          <li class="list-image-third">
+            <a class="image-third-link" href="#"><div class="image-third"><img class="picture-third"
+              src="./images/img3.jpg"
+              alt="Робота з планшетами"
+              width="370" 
+            ></div></a>
+          </li>
+        </ul>
+	   </section>
+      <section id="bord" onmousemove="funcover5('bord')" class="container section part-third">
+	  <div class="title-third"><h2 class="title-command">Наша команда</h2></div> 
+        <ul class="command">
+          <li class="designer"> 
+             <a class="designer-link" href="#" ><div id="igordiv" class="igor" onmousemove="funcover2('igordiv')"  >
+              <img id="igorpic" onmousemove="funcover1('igorpic')" class="picture-demyanenko" src="./images/img4.jpg"  alt="Ігор Дем'яненко" width="270">
+              
+                <h3 class="demyanenko">Ігор Дем'яненко</h3>
+                <p class="designer-igor" lang="en">Product Designer</p>
+              
+            </div></a>
+          </li>
+          <li class="developer">
+            <a class="developer-link" href="#"><div id="olgadiv" class="olga" onmousemove="funcover2('olgadiv')">
+              <img id="olgapic" onmousemove="funcover1('olgapic')" class="picture-olga" src="./images/img5.jpg" alt="Ольга Рєпіна" width="270">
+              
+                <h3 class="repina">Ольга Рєпіна</h3>
+                <p class="developer-olga" lang="en">Frontend Developer</p>
+             
+            </div></a>
+          </li>
+          <li class="marketing"><a  class="marketing-link" href="#"><div id="mykoladiv" class="mykola" onmousemove="funcover2('mykoladiv')">
+             <img id="mykolapic" onmousemove="funcover1('mykolapic')" class="picture-mykola" src="./images/img6.jpg" alt="Микола Тарасов" width="270">
+              
+                <h3 class="tarasov">Микола Тарасов</h3>
+                <p class="marketing-mykola" lang="en">Marketing</p>
+              
+            </div></a>
+          </li>
+          <li class="uidesigner"><a class="uidesigner-link" href="#"><div id="mykhailodiv" class="mykhailo" onmousemove="funcover2('mykhailodiv')">
+              <img id="mykhailopic" onmousemove="funcover1('mykhailopic')" class="picture-mykhailo" src="./images/img7.jpg" alt="Михайло Єрмаков" width="270">
+                <h3 class="yermakov">Михайло Єрмаков</h3>
+                <p class="uidesigner-mykhailo" lang="en">UI Designer</p>
+             </div></a>
+          </li>
+        </ul>
+	</section>
+	
+    </main>
+    <footer class="container foot-first">
+	
+	 <div class="section-one">
+	  <a class="logo-same" lang="en"  href="index.html"><span class="logo-same-part-first">Web</span>
+	  <span class="logo-same-part-second">Studio</span></a>
+     <address class="details-address">
+	 <ul class="contacts-same">
+	  <li><a class="address-link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer"
+            ><span class="address-selection">м. Київ, пр-т Лесі Українки, 26</span></a></li>
+       
+        <li class="mail"><a class="mail-link" href="mailto:info@devstudio.com"><span class="mail-selection">info@devstudio.com</span></a></li>
+        <li class="phone"><a class="phone-link" href="tel:+380961111111"><span class="phone-selection">+38 096 111 11 11</span ></a></li>
+      </ul>
+	  </address>
+	  </div>
+	  
+	 </footer>
+	<script src="./js/script.js"></script>
+		
+  </body>
+</html>
